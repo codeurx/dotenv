@@ -14,6 +14,7 @@ class Dotenv
     {
         $this->filePath = $this->getFilePath($path, $file);
         $this->loader = new Loader($this->filePath, true);
+        $this->load();
     }
 
     public function load()
