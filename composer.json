@@ -1,0 +1,21 @@
+{
+    "name": "codeurx/dotenv",
+    "description": "Loads environment variables from .env to getenv().",
+    "type":"library",
+    "license" : "MIT",
+    "authors" : [
+        {
+            "name": "Amir Ali Salah",
+            "email": "codeurx@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.3.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "Codeurx\\Dotenv\\": "src/"
+        }
+    }
+}
